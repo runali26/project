@@ -1,2 +1,2 @@
 # project
-i developed the portfolio website using html and css.
+i developed the some project's to create a desing part of website using html and css.
