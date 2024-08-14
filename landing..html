@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+<style>
+    *{
+        padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        height:100vh;
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2))
+        ,
+         url(jwel\ of\ bomby.jpg);
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav{
+        width: 100;
+        height:100px;
+        
+        color:white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .logo{
+        font-size: 2em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+        
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        word-spacing: 5px;
+        position:relative;
+    }
+    .menu a:before{
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:0%;
+        height:100%;
+        border-bottom: 2px solid navy;
+        transition: 0.4s linear;
+    }
+    .menu a:hover:before{
+        width:90%;
+    }
+    .register a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background: indianred;
+        border-radius: 8px;
+    }   
+    .didi{
+        max-width: 650px ;
+        position: absolute;
+        top:56%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+        
+        }
+        .didi span{
+            letter-spacing: 5px;
+        }
+        .didi h1{
+            font-size: 3.5em;
+
+        }
+        .didi a{
+            text-decoration: none;
+            background: navy;
+            color: white;
+            padding: 10px 20px;
+            letter-spacing: 5px;
+
+
+        }
+        .runa button{
+            background-color: darkblue;
+            color:white;
+            padding :7px 15px;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Jewel of bombay
+            </div>
+            <div class="menu">
+                <a href="#">Home</a> 
+                <a href="#">Diamonds</a>
+                <a href="#">Necklaces</a>
+                <a href="#">Bracelets</a>
+                <a href="#">Rings</a>
+
+            </div>
+            <div  class="runa">
+                <button>Ragister</button>
+            </div>
+            </div>
+        </nav>
+        <section class="didi">
+            <span>celebrate all your gorgeous moments</span>
+            <h1>Mark Your Occasions </h1>
+            <br>
+            <a href="#">Select yours</a>
+        </section>
+    </header>
+    
+</body>
+</html>
